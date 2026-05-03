@@ -30,6 +30,12 @@ Most tutorials just show you how to connect a form to a spreadsheet. I wanted to
 4. Add your Google credentials
 5. Open `form.html` in your browser and test it
 
+##output:
+<img width="322" height="446" alt="image" src="https://github.com/user-attachments/assets/9ef00411-b7ba-49d7-93dd-e4117d9e6cf5" />
+<img width="1044" height="312" alt="image" src="https://github.com/user-attachments/assets/0246f028-c99c-456d-b72c-2e2080ffc31f" />
+<img width="1751" height="700" alt="image" src="https://github.com/user-attachments/assets/a5f3e5b4-91d4-4024-a580-cb4f63f357a4" />
+
+
 ## What I learned
 
 Setting up OAuth for Google APIs, connecting multiple services in one workflow, and building conditional logic for lead scoring.
