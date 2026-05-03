@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lead Form</title>
+</head>
+<body>
+  <h2>Contact Us</h2>
+  <form id="leadForm">
+    <input type="text" id="name" placeholder="Your Name" /><br><br>
+    <input type="email" id="email" placeholder="Your Email" /><br><br>
+    <input type="text" id="phone" placeholder="Your Phone" /><br><br>
+    <input type="text" id="company" placeholder="Company Name" /><br><br>
+    <button type="button" onclick="submitForm()">Submit</button>
+  </form>
+
+  <script>
+    async function submitForm() {
+      const data = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        phone: document.getElementById('phone').value,
+        company: document.getElementById('company').value
+      };
+
+      const response = await fetch('http://localhost:5678/webhook-test/2937f301-34c8-4730-9677-33dfb2c02a98', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+
+      const result = await response.text();
+      alert('Form submitted! ' + result);
+    }
+  </script>
+</body>
+</html>
