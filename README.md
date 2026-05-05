@@ -32,7 +32,7 @@ Most tutorials just show you how to connect a form to a spreadsheet. I wanted to
 
 ##output:
 form:
-<img width="322" height="446" alt="image" src="https://github.com/user-attachments/assets/9ef00411-b7ba-49d7-93dd-e4117d9e6cf5" />
+<img width="671" height="961" alt="image" src="https://github.com/user-attachments/assets/d24d993c-176a-493a-83db-c68dd9bfd573" />
 google sheets:
 <img width="1044" height="312" alt="image" src="https://github.com/user-attachments/assets/0246f028-c99c-456d-b72c-2e2080ffc31f" />
 workflow:
